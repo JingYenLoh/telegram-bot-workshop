@@ -1,5 +1,6 @@
 import logging
 import math
+from random import random
 
 from telegram import Update, ForceReply
 from telegram.ext import Updater, CommandHandler, MessageHandler, Filters, CallbackContext
